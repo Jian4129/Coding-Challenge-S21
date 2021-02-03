@@ -23,19 +23,20 @@ Genome analysis is the identification of genomic features such as gene expressio
 
 Regardless if you can or cannot answer the question, provide a short explanation of how you got your solution or how you think it can be solved in your README.md file. However, we highly recommend giving the challenge a try, you just might learn something new!
 
-# Solution 
+### Solution 
 
 require library: biopython
-    use "pip install biopython" to install biopython
+1. use `pip install biopython` to install biopython
 
-TestGround.ipynb: place I use to learn new library and functions.
+TestGround.ipynb: place I use to learn new library and functions.\
 GenomeMap.ipynb: the main program.
 
-Issue: GenomeMap.ipynb only display 4 genes
-       GenomeMap.ipynb display labels in incorrect place.
-           potential fix: figure out how python determine where to draw the arc, and use that to configure the relative position the label should be at relative to the arc. 
+Issue: 
+1. GenomeMap.ipynb only display 4 genes
+2. GenomeMap.ipynb display labels in incorrect place.
+   - potential fix: figure out how python determine where to draw the arc, and use that to configure the relative position the label should be at relative to the arc. 
 
-GenomeMap.ipynb iterate through each feature and each DNA code inside the feature and draw them out using PIL.ImageDraw.arc. Each feature are seperated with 10 unit of arc. 
+GenomeMap.ipynb iterate through each feature and each DNA code inside the feature and draw them out using `PIL.ImageDraw.arc`. Each feature are seperated with 10 unit of arc. 
 
 
 
